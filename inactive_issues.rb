@@ -14,6 +14,7 @@ issues = repo.rels[:issues].get
 
 loop do
   issues.data.each do |issue|
+    break if issue.pull_request?
     break if issue.comments.zero?
 
     author = issue.user.login
