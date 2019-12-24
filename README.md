@@ -14,6 +14,11 @@ had at least one comment) for greater than 28 days.
 Lists pull requests where there have been no comments by the original author 
 (but has had at least one comment) for greater than 28 days.
 
+### `generate_pdf.rb`
+
+Generates a PDF of all open issues and pull requests, in A6/index card size
+ready for printing.
+
 ## Author
 
 Copyright (c) 2017 Nick Charlton <nick@nickcharlton.net>
